@@ -18,7 +18,7 @@ Welcome to the repository of Travel website! This project showcases user friendl
 
 ## Live Demo
 
-You can view the live version of my portfolio website at: <a href = https://portfolio-flame-tau-69.vercel.app/>Visit my Portfolio 🌐↗ </a>
+You can view the live version of my portfolio website at: <a href = https://portfolio-flame-tau-69.vercel.app/>Visit website 🌐↗ </a>
 
 ## Setup and Installation
 
