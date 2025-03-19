@@ -1,6 +1,6 @@
 # Travel-Tales
 
-Welcome to the repository of Travel website! This project showcases user friendly interface to plan a tour with your family and friends.
+Welcome to the repository for Travel website! This project showcases user friendly interface to plan a tour with your family and friends includes singin and login pages.
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
