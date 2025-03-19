@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tales</title>
+    <link rel="icon" href="./images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" >
+        <img src=./images/logo-img.png class="logo" alt="logo" />
+        </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#review">Review</a>
+            <a href="#articles">Articles</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+            <button type="button" class="signin-btn">Sign in</button>
+
+            <!-- signin form starts here-->
+    </header>
+        <div class="signin-form-container">
+            <i class="fa-times" id="signin-form-close"></i>
+            <form action ="">
+                <h3>welcome to Travel Tales</h3>
+                <p> Sign Up to Continue</p>
+                <a href="https://accounts.google.com/signin/v2/usernamerecovery?ddm=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><p>Continue with Google</p></a>
+                <a href="https://www.facebook.com/r.php"><p>Continue with Facebook</p></a>
+                <p>--OR--</p>
+                <input type="name" class="box" required placeholder="first Name">
+                <input type="email" class="box" required placeholder="Email*">
+                <input type="password" class="box" required placeholder="Password*">
+                <input type="checkbox" id="remember">
+                <label for="remember"> remember me</label>
+                <br/>
+                <input type="checkbox" id="updates">
+                <label for="updates">I want to receive emails about awesome travel experiences and news!</label>
+                </br>
+                <input type="submit" value="Continue" class="btn">
+                <p> already have an account? <a class="login-btn" href="#">log in </a></p>
+            </form>
+        </div>
+
+        <!-- signin form ends here -->
+
+        <!--login form starts here -->
+        <div class="login-form-container">
+            <i class="fa-times" id="login-form-close"></i>
+            <form action ="">
+                <h3>welcome to Travel Tales</h3>
+                <p> log in to your account</p>
+                <a href="https://accounts.google.com/signin/v2/usernamerecovery?ddm=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><p>Continue with Google</p></a>
+                <a href="https://www.facebook.com/login.php"><p>Continue with Facebook</p></a>
+                <p>--OR--</p>
+                <input type="email" class="box" required placeholder="Email*">
+                <input type="password" class="box" required placeholder="Password*">
+                <br/>
+                <input type="submit" value="Continue" class="btn">
+                <p> don't have an account? <a href="#">Sign up </a></p>
+            </form>
+        </div>
+        </div>
+        
+        <!-- login form ends here -->
+
+        <!-- hero section starts-->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>The trip of your dreams starts with Travel Tales</h3>
+        <p>Covering hundreds of destinations and countless experiences,</p>
+        <p>Travel Tales is your guide for traveling better and smarter.</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="./images/vid1.mp4"></span>
+        <span class="vid-btn" data-src="./images/vid2.mp4"></span>
+        <span class="vid-btn" data-src="./images/vid3.mp4"></span>
+        <span class="vid-btn" data-src="./images/vid4.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="./images/vid1.mp4" id="video-slider" autoplay muted loop></video>
+    </div>
+    </section>
+
+    <!-- about section starts here -->
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="box box1">
+                <img src="./images/planning.png" alt="">
+                <div class="content">
+                    <h4>seamless travel planning</h4>
+                    <p>Some travelers count countries, others count stories. we've planning for your next trip to make it memorable.</p>
+                </div>
+            </div>
+            <div class="box box2">
+                <img src="./images/map.png" alt="">
+                <div class="content">
+                    <h4>tailored experiences</h4>
+                    <p>Elsewhere by Travel Tales connects you with local expert to craft your personalized, unforgettable trip.</p>
+                </div>
+            </div>
+            <div class="box box3">
+                <img src="./images/trust.png" alt="">
+                <div class="content">
+                    <h4>reliable and trust</h4>
+                    <p> 100% reliable and trustworthy website with user-friendly user interface.</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- about section ends here -->
+
+    <!-- destination section starts here-->
+     <section class="destinations" id="destinations">
+        <p>plan your trip</p>
+        <h1><i>where to next?</i></h1>
+        <div class="container">
+            <div class="gallery">
+                <div class="box box1">
+                    <img src="./images/goa.jpg" alt="">
+                    <div class="text">
+                        <h2>Goa - The Official Party Hub</h2>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <img src="./images/rishikesh.jpg" alt="">
+                    <div class="text">
+                        <h2>Rishikesh-The Yoga Capital Of The World</h2>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <img src="./images/shimla.jpg" alt="">
+                    <div class="text">
+                        <h2>Shimla-The Queen Of Northern Hills</h2>
+                    </div>
+                </div>
+                <div class="box box4">
+                    <img src="./images/manali.jpg" alt="">
+                    <div class="text">
+                        <h2> Manali-The Snowy Paradise</h2>
+                    </div>
+                </div>
+                <div class="box box5">
+                    <img src="./images/varanasi.jpg" alt="">
+                    <div class="text">
+                        <h2>Varanasi-The Spiritual Capital Of India</h2>
+                    </div>
+                </div>  
+            </div>
+            <div class="btn">
+                <a href="#">explore more <i class="fa fa-arrow-right"></i></a>
+            </div>
+    </section>
+    <!-- destination section ends here -->
+
+    <!-- review section starts here  -->
+    <section class="review" id="review">
+        <h1>elsewhere</h1>
+        <p>🌎by travel Tales</p>
+        <div class="container">
+            <div class="feedbacks">
+                <div class="box box1">
+                    <div class="profile">
+                    <img src="./images/photo1.jpg" alt="" />
+                    <div class="detail">
+                        <li>Jerry</li>
+                        <li>traveler</li>
+                    </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nam quod doloribus distinctio aut libero 
+                        nostrum quos dignissimos animi maiores sit iste inventore neque, consequatur, quaerat ullam itaque id placeat.
+                    </p>
+                </div>
+                <div class="box box2">
+                <div class="profile">
+                    <img src="./images/photo2.jpg" alt="" />
+                    <div class="detail">
+                        <li>julli</li>
+                        <li>traveler</li>
+                    </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nam quod doloribus distinctio aut libero 
+                        nostrum quos dignissimos animi maiores sit iste inventore neque, consequatur, quaerat ullam itaque id placeat.
+                    </p>
+                </div>
+                <div class="box box3">
+                    <div class="profile">
+                        <img src="./images/photo3.jpg" alt="" />
+                        <div class="detail">
+                            <li>davis</li>
+                            <li>traveler</li>
+                    </div>
+                </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nam quod doloribus distinctio aut libero 
+                        nostrum quos dignissimos animi maiores sit iste inventore neque, consequatur, quaerat ullam itaque id placeat.
+                    </p>
+                </div>
+                <div class="box box4">
+                    <div class="profile">
+                        <img src="./images/photo4.jpg" alt="" />
+                        <div class="detail">
+                            <li>lovy</li>
+                            <li>traveler</li>
+                        </div>
+                    </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nam quod doloribus distinctio aut libero 
+                            nostrum quos dignissimos animi maiores sit iste inventore neque, consequatur, quaerat ullam itaque id placeat.
+                        </p>
+                    </div>
+                <div class="box box5">
+                <div class="profile">
+                    <img src="./images/photo5.jpg" alt="" />
+                    <div class="detail">
+                        <li>Jasika Devis</li>
+                        <li>traveler</li>
+                    </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nam quod doloribus distinctio aut libero 
+                        nostrum quos dignissimos animi maiores sit iste inventore neque, consequatur, quaerat ullam itaque id placeat.
+                    </p>
+                </div>
+                <div class="box box6">
+                    <div class="profile">
+                        <img src="./images/photo6.jpg" alt="" />
+                        <div class="detail">
+                            <li>smily</li>
+                            <li>traveler</li>
+                        </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nam quod doloribus distinctio aut libero 
+                            nostrum quos dignissimos animi maiores sit iste inventore neque, consequatur, quaerat ullam itaque id placeat.
+                        </p>
+                </div>
+                <div class="box box7">
+                    <div class="profile">
+                        <img src="./images/photo7.jpg" alt="" />
+                        <div class="detail">
+                            <li>Justin foly</li>
+                            <li>traveler</li>
+                        </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nam quod doloribus distinctio aut libero 
+                            nostrum quos dignissimos animi maiores sit iste inventore neque, consequatur, quaerat ullam itaque id placeat.
+                        </p>
+                    </div>
+                    <div class="box box6">
+                        <div class="profile">
+                            <img src="./images/photo6.jpg" alt="" />
+                            <div class="detail">
+                                <li>Deska</li>
+                                <li>traveler</li>
+                            </div>
+                            </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nam quod doloribus distinctio aut libero 
+                    nostrum quos dignissimos animi maiores sit iste inventore neque, consequatur, quaerat ullam itaque id placeat.
+                    </p>
+                </div>
+            </div>
+        </section>
+            
+        <!-- review section ends here  -->
+
+        
+        <!-- article section starts here  -->
+
+        <section class="article" id="articles">
+            <h1 class="label">resources</h1>
+            <h1 class="heading">latest articles</h1>
+            <div class="container">
+                <div class="latest-article">
+                    <img src="./images/latest-article.jpg" alt="">
+                    <p>limitless destination</p>
+                    <div class="author">
+                        <img src="./images/photo7.jpg" alt="">
+                        <p>joe - 10 min read</p>
+                        <img src="./images/photo6.jpg" alt="">
+                        <p>jasika - 15 min read</p>
+                    </div>
+                </div>
+                <div class="more-article">
+                    <div class="box box1">
+                        <div class="image">
+                            <img src="./images/family.jpeg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Traveling with kids: tips for stress-free family adventures</h3>
+                            <li>family travel - 9 min read</li>
+                        </div>
+                    </div>
+                    <div class="box box2">
+                        <div class="image">
+                            <img src="./images/food-article.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>culinary adventure: exploring world cuisines on your travels</h3>
+                            <li>food and travel - 5 min</li>
+                        </div>
+                    </div>
+                    <div class="box box3">
+                        <div class="image">
+                            <img src="./images/budget-travel.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>traveling on budget: tips for affordable advne</h3>
+                            <li>budget travel - 6 min read</li>
+                        </div>
+                </div>
+                <div class="box box4">
+                    <div class="image">
+                        <img src="./images/tips.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>traveling with kids: tips for stress-free family adventures</h3>
+                        <li>travel tips - 9 min read</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- article section ends here  -->
+
+    <!-- footer section starts here  -->
+    <footer>
+        <section class="footer" id="contact">
+            <div class="container">
+                <div class="detail">
+                    <h3>Travel Tales</h3>
+                    <p> enjoy all seamless experiences with Travel Tales</p>
+                    <h5>get in touch</h5>
+                    <a href="#">example@mail.com</a>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square"></i></a>
+                    </div>
+                </div>
+                <div class="about-us">
+                    <h4>about us</h4>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our term</a></li>
+                    <li><a href="#">careers</a></li>
+                    <li><a href="#">mission and values</a></li>
+                    <li><a href="#">partnerships</a></li>
+                </div>
+                <div class="about-us">
+                    <h4>help</h4>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">booking guide</a></li>
+                    <li><a href="#">cancellation policy</a></li>
+                    <li><a href="#">site map</a></li>
+                </div>
+                <div class="about-us">
+                    <h4>Resources</h4>
+                    <li><a href="#">newsletter</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">gallery</li>
+                    <li><a href="#">offers</a></li>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div>
+                    &copy;2025 - Travel Tales, inc, all rights reserved
+                </div>
+                <div>
+                    <a href="#">term & conditions</a>
+                    <a href="#">privacy policy</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer section ends here  -->
+</body>
+<script src="script.js"></script>
+</html>
