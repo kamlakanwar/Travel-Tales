@@ -18,7 +18,7 @@ Welcome to the repository of Travel website! This project showcases user friendl
 
 ## Live Demo
 
-You can view the live version of my portfolio website at: <a href = https://vercel.com/kamlakanwars-projects/travel-tales/>Visit website 🌐↗ </a>
+You can view the live version of this website at: <a href = https://travel-tales-mu.vercel.app/>Visit website 🌐↗ </a>
 
 ## Setup and Installation
 
@@ -31,14 +31,6 @@ You can view the live version of my portfolio website at: <a href = https://verc
 2. **Navigate to the project directory:**
     ```bash
     cd Travel-Tales
-    ```
-3. **Install dependencies (if any):**
-    ```bash
-    npm install
-    ```
-4. **Start the development server:**
-    ```bash
-    npm start
     ```
 
 ## Usage
