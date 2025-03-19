@@ -30,7 +30,7 @@ You can view the live version of my portfolio website at: <a href = https://port
     ```
 2. **Navigate to the project directory:**
     ```bash
-    cd Portfolio
+    cd Travel-Tales
     ```
 3. **Install dependencies (if any):**
     ```bash
