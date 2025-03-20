@@ -190,7 +190,7 @@ header .search-bar-container label {
 .signin-form-container form a p {
     padding: 1.3rem;
     font-size: 1.5rem;
-    color: blue;
+    color: black;
     border: .1rem solid rgba(0,0,0, .3) ;
     border-radius: 2.5rem;
 }
@@ -288,7 +288,7 @@ header .search-bar-container label {
 .login-form-container form a p {
     padding: 1.3rem;
     font-size: 1.5rem;
-    color: blue;
+    color: black;
     border: .1rem solid rgba(0,0,0, .3) ;
     border-radius: 2.5rem;
 }
