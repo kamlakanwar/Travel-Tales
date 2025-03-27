@@ -1,6 +1,6 @@
 # Travel-Tales
 
-Welcome to the repository for Travel website! This project showcases user friendly interface to plan a tour with your family and friends includes singin and login pages.
+Welcome to the repository for tour and Travel website! This project has user friendly interface to plan a tour with your family and friends includes singin and login pages.
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
@@ -30,7 +30,7 @@ You can view the live version of this website at: <a href = https://travel-tales
     ```
 2. **Navigate to the project directory:**
     ```bash
-    cd Travel-Tales
+    cd Food-website
     ```
 
 ## Usage
