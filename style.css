@@ -927,11 +927,10 @@ footer .footer .copyright a {
     }
 }
     .tic-box{
-        margin-top: 10rem;
+        margin-top: 5rem;
         padding: 10px;
     }
   .search-filters {
-    grid-template-columns: repeat(4, 1fr);
     align-items: center;
   }
 
@@ -953,6 +952,7 @@ footer .footer .copyright a {
     padding: 10px;
   }
 }
+
 
 
 
