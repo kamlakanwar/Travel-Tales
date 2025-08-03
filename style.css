@@ -433,6 +433,12 @@ section .container .content {
 /* about section ends here */
 
 /* ticket section starts here */
+.tic-box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .tic {
   background-color: rgb(214, 234, 219);;
@@ -440,10 +446,6 @@ section .container .content {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   margin: 20px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .tic h2 {
@@ -951,6 +953,7 @@ body {
     margin: 0 auto;
   }
 }
+
 
 
 
