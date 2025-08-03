@@ -1,124 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tickets</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tickets | Travel Tales</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-    
-    <header>
-        <div id="menu-bar" class="fas fa-bars"></div>
-        <a href="#" >
-        <img src=./images/logo-img.png class="logo" alt="logo" />
-        </a>
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="ticket.html">Ticket</a>
-            <a href="#review">Review</a>
-            <a href="article.html">Articles</a>
-            <a href="vlog.html">Vlogs</a>
-        </nav>
-        <div class="icons">
-            <i class="fas fa-search" id="search-btn"></i>
-        </div>
-        <form action="" class="search-bar-container">
-            <input type="search" id="search-bar" placeholder="search here...">
-            <label for="search-bar" class="fas fa-search"></label>
-        </form>
-            <button type="button" class="signin-btn">Sign in</button>
-        </header>
-    
-    <div id="container" class="tic">
-        <h2>CRUISE OFFERS & SHIPS</h2>
-        <div class="search-filters">
-          <select>
-            <option value="single">Single</option>
-            <option value="double">Double</option>
-               <option value="double">Child</option>
-          </select>
-          <select>
-            <option value="spain">Ladakh(5)</option>
-            <option value="madrid">karela (17)</option>
-          </select>
-          <select>
-            <option value="expedition">chennai V</option>
-          </select>
-          <input type="text" placeholder="Add Nearby Port">
-          <input type="text" placeholder="Add Nearby Port">
-          <select>
-            <option value="laustral"> Gujrat V</option>
-          </select>
-          <input type="date" value="2017-09-07">
-          <input type="number" placeholder="Adults (16+)" value="2">
-          <input type="number" placeholder="Children" value="0">
-          <button class="se-btn">SEARCH CRUISES</button>
-        </div>
-        <div class="cruise-details">
-          <div class="cruise-card">
-            <h3>L'AUSTRAL V</h3>
-            <p>Date: 07/09/17</p>
-            <p>Adults: 2</p>
-            <p>Children: 0</p>
+
+  <!-- Header -->
+  <header>
+    <a href="#">
+      <img src="./images/logo-img.png" class="logo" alt="Travel Tales Logo" />
+    </a>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="ticket.html">Ticket</a>
+      <a href="#">Review</a>
+      <a href="article.html">Articles</a>
+      <a href="vlog.html">Vlogs</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-search" id="search-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+      <input type="search" id="search-bar" placeholder="search here..." />
+      <label for="search-bar" class="fas fa-search"></label>
+    </form>
+    <button type="button" class="signin-btn">Sign in</button>
+  </header>
+
+  <!-- Ticket Booking Section -->
+  <section id="container" class="tic">
+    <h2>CRUISE OFFERS & SHIPS</h2>
+    <div class="search-filters">
+      <select>
+        <option value="single">Single</option>
+        <option value="double">Double</option>
+        <option value="child">Child</option>
+      </select>
+      <select>
+        <option value="ladakh">Ladakh (5)</option>
+        <option value="kerala">Kerala (17)</option>
+      </select>
+      <select>
+        <option value="chennai">Chennai V</option>
+      </select>
+      <input type="text" placeholder="Add Nearby Port" />
+      <input type="text" placeholder="Add Nearby Port" />
+      <select>
+        <option value="gujarat">Gujarat V</option>
+      </select>
+      <input type="date" value="2025-09-07" />
+      <input type="number" placeholder="Adults (16+)" value="2" />
+      <input type="number" placeholder="Children" value="0" />
+      <button class="se-btn">SEARCH CRUISES</button>
+    </div>
+
+    <!-- Cruise Result Card -->
+    <div class="cruise-details">
+      <div class="cruise-card">
+        <h3>L'AUSTRAL V</h3>
+        <p>Date: 07/09/2025</p>
+        <p>Adults: 2</p>
+        <p>Children: 0</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <section class="footer" id="contact">
+      <div class="container">
+        <div class="detail">
+          <h3>Travel Tales</h3>
+          <p>Enjoy seamless travel experiences with us</p>
+          <h5>Get in touch</h5>
+          <a href="#">example@mail.com</a>
+          <div class="social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
           </div>
+        </div>
+        <div class="about-us">
+          <h4>About Us</h4>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Mission & Values</a></li>
+          <li><a href="#">Partnerships</a></li>
+        </div>
+        <div class="about-us">
+          <h4>Help</h4>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Booking Guide</a></li>
+          <li><a href="#">Cancellation Policy</a></li>
+          <li><a href="#">Site Map</a></li>
+        </div>
+        <div class="about-us">
+          <h4>Resources</h4>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Offers</a></li>
         </div>
       </div>
 
+      <div class="copyright">
+        <div>
+          &copy; 2025 - Travel Tales Inc. All rights reserved
+        </div>
+        <div>
+          <a href="#">Terms & Conditions</a> |
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </section>
+  </footer>
 
-    <!-- footer section starts here  -->
-    <footer>
-        <section class="footer" id="contact">
-            <div class="container">
-                <div class="detail">
-                    <h3>Travel Tales</h3>
-                    <p> enjoy all seamless experiences with Travel Tales</p>
-                    <h5>get in touch</h5>
-                    <a href="#">example@mail.com</a>
-                    <div class="social">
-                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
-                        <a href="#"><i class="fa fa-facebook-square"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square"></i></a>
-                    </div>
-                </div>
-                <div class="about-us">
-                    <h4>about us</h4>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">our term</a></li>
-                    <li><a href="#">careers</a></li>
-                    <li><a href="#">mission and values</a></li>
-                    <li><a href="#">partnerships</a></li>
-                </div>
-                <div class="about-us">
-                    <h4>help</h4>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">booking guide</a></li>
-                    <li><a href="#">cancellation policy</a></li>
-                    <li><a href="#">site map</a></li>
-                </div>
-                <div class="about-us">
-                    <h4>Resources</h4>
-                    <li><a href="#">newsletter</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">gallery</li>
-                    <li><a href="#">offers</a></li>
-                </div>
-            </div>
-
-            <div class="copyright">
-                <div>
-                    &copy;2025 - Travel Tales, inc, all rights reserved
-                </div>
-                <div>
-                    <a href="#">term & conditions</a>
-                    <a href="#">privacy policy</a>
-                </div>
-            </div>
-        </section>
-    </footer>
-
-    </body>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+  <!-- GSAP Animation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    gsap.from(".cruise-card", {
+      opacity: 0,
+      y: 50,
+      duration: 1,
+      delay: 0.5,
+      ease: "power2.out"
+    });
+  </script>
+</body>
 </html>
