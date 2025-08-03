@@ -441,11 +441,13 @@ section .container .content {
 }
 
 .tic {
+    height: 100vh;
+    width: 80%;
   background-color: rgb(214, 234, 219);;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  margin: 20px;
+  margin: 25px;
 }
 
 .tic h2 {
@@ -953,6 +955,7 @@ body {
     margin: 0 auto;
   }
 }
+
 
 
 
