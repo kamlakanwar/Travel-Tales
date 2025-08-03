@@ -741,10 +741,12 @@ section .container .content {
 /* footer section starts here  */
 
 footer {
+    position: absolute;
     padding:  1rem;
     max-width: 100%;
     background: var(--green);
     border-radius: 1.5rem;
+    bottom: 0;
 }
 
 footer .footer {
@@ -954,6 +956,7 @@ body {
     margin: 0 auto;
   }
 }
+
 
 
 
