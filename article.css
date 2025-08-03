@@ -13,7 +13,8 @@ body{
 /* article section starts here  */
 .article {
     padding: 2rem;
-    margin: 3rem;
+    margin-inline: 3rem;
+  margin-block: 2rem;
   border-radius: 20px;
   background-color: rgb(214, 234, 219);
   cursor: pointer; 
@@ -45,7 +46,6 @@ body{
 .article .container .latest-article p {
     margin: .8rem 0;
     color: #666;
-  cursor: pointer; 
 }
 
 .article .container .latest-article h1 {
@@ -69,7 +69,6 @@ body{
 
 .article .container .latest-article .author p {
     font-size: .9rem;
-  cursor: pointer; 
 }
 
 .article .container .more-article {
