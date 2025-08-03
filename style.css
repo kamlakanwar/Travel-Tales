@@ -434,7 +434,6 @@ section .container .content {
 
 /* ticket section starts here */
 .tic-box{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -953,6 +952,7 @@ body {
     margin: 0 auto;
   }
 }
+
 
 
 
