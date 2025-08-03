@@ -440,9 +440,8 @@ section .container .content {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   margin: 20px;
-    height: 100%;
+    height: 80vh;
 }
-
 
 .tic h2 {
   text-align: center;
@@ -502,31 +501,6 @@ section .container .content {
 .cruise-card p {
   margin: 4px 0;
   color: #34495e;
-}
-
-/* Responsive Design */
-@media (min-width: 768px) {
-  .search-filters {
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-  }
-
-  .search-filters input[type="text"],
-  .search-filters input[type="date"],
-  .search-filters input[type="number"],
-  .search-filters select {
-    width: 100%;
-  }
-
-  .se-btn {
-    grid-column: span 4;
-    width: 100%;
-  }
-
-  .cruise-card {
-    max-width: 600px;
-    margin: 0 auto;
-  }
 }
 
 /* ticket section ends here */
@@ -950,6 +924,30 @@ body {
     }
 }
 
+/* Responsive Design */
+@media (min-width: 768px) {
+  .search-filters {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  }
+
+  .search-filters input[type="text"],
+  .search-filters input[type="date"],
+  .search-filters input[type="number"],
+  .search-filters select {
+    width: 100%;
+  }
+
+  .se-btn {
+    grid-column: span 4;
+    width: 100%;
+  }
+
+  .cruise-card {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
 
 
 
