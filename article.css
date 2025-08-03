@@ -9,12 +9,12 @@
 
 body{
     height: 100vh;
-  border-radius: 10px;
 }
 /* article section starts here  */
 .article {
     padding: 3rem;
     margin: 2rem;
+  border-radius: 20px;
   background-color: rgb(214, 234, 219);
 }
 
