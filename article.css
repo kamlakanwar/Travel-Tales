@@ -16,6 +16,7 @@ body{
     margin: 3rem;
   border-radius: 20px;
   background-color: rgb(214, 234, 219);
+  pointer: cursor;
 }
 
 .article .container {
@@ -37,6 +38,7 @@ body{
     border-radius: 1rem;
     object-fit: cover;
     object-position: center;
+   pointer: cursor;
 }
 
 .article .container .latest-article p {
@@ -60,6 +62,7 @@ body{
     width: 30px;
     height: 30px;
     border-radius: 3rem;
+   pointer: cursor;
 }
 
 .article .container .latest-article .author p {
@@ -84,6 +87,7 @@ body{
     object-fit: cover;
     object-position: center;
     border-radius: .5rem;
+   pointer: cursor;
 }
 
 .article .container .more-article .text li {
