@@ -24,6 +24,7 @@ body{
     flex-wrap: wrap;
     gap: 1.5rem;
     margin-top: 2rem;
+  pointer: cursor;
 }
 
 .article .container .latest-article,
@@ -44,6 +45,7 @@ body{
 .article .container .latest-article p {
     margin: .8rem 0;
     color: #666;
+  pointer: cursor;
 }
 
 .article .container .latest-article h1 {
@@ -56,6 +58,7 @@ body{
     align-items: center;
     gap: .7rem;
     cursor: pointer;
+  pointer: cursor;
 }
 
 .article .container .latest-article .author img {
@@ -67,18 +70,21 @@ body{
 
 .article .container .latest-article .author p {
     font-size: .9rem;
+  pointer: cursor;
 }
 
 .article .container .more-article {
     display: grid;
     gap: 1rem;
     overflow: hidden;
+  pointer: cursor;
 }
 
 .article .container .more-article .box {
     display: flex;
     gap: 1.5rem;
     align-items: center;
+  pointer: cursor;
 }
 
 .article .container .more-article .box img {
