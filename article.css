@@ -8,9 +8,8 @@
 }
 /* article section starts here  */
 .article {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-inline: 5rem;
+    padding: 3rem;
+    margin: 2rem;
   background-color: rgb(214, 234, 219);
 }
 
