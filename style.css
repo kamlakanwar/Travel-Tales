@@ -435,10 +435,12 @@ section .container .content {
 /* ticket section starts here */
 
 .tic {
-  background: #ffffff;
+  background-color: rgb(214, 234, 219);;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+    height: 100vh;
 }
 
 
@@ -947,6 +949,7 @@ body {
         max-width: 100%;
     }
 }
+
 
 
 
