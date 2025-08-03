@@ -932,6 +932,10 @@ body {
 
 /* Responsive Design */
 @media (min-width: 768px) {
+
+    .tic-box{
+        margin: 15px;
+    }
   .search-filters {
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
@@ -946,7 +950,7 @@ body {
 
   .se-btn {
     grid-column: span 4;
-    width: 100%;
+    width: 80%;
   }
 
   .cruise-card {
@@ -955,20 +959,6 @@ body {
     padding: 10px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
