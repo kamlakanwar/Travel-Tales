@@ -929,11 +929,8 @@ body {
         max-width: 100%;
     }
 }
-
-/* Responsive Design */
-@media (min-width: 768px) {
-
     .tic-box{
+        height: 100%;
         margin-top: 10rem;
         padding: 10px;
     }
@@ -950,7 +947,7 @@ body {
   }
 
   .se-btn {
-    grid-column: span 4;
+    grid-column: span 3;
     width: 80%;
   }
 
@@ -960,6 +957,7 @@ body {
     padding: 10px;
   }
 }
+
 
 
 
