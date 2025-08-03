@@ -8,13 +8,12 @@
 }
 
 body{
-    height: 80vh;
+    height: 100vh;
 }
 /* article section starts here  */
 .article {
     padding: 2rem;
     margin-inline: 3rem;
-  margin-block: 2rem;
   border-radius: 20px;
   background-color: rgb(214, 234, 219);
   cursor: pointer; 
