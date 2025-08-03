@@ -474,6 +474,11 @@ section .container .content {
     object-fit: cover;
     object-position: center;
     cursor: pointer;
+    filter: grayscale(0);
+}
+
+.gallery .box img:hover{
+    filter: grayscale(1);
 }
 
 .gallery .box .text {
@@ -835,3 +840,4 @@ body {
     }
 
 }
+
