@@ -934,7 +934,8 @@ body {
 @media (min-width: 768px) {
 
     .tic-box{
-        margin: 15px;
+        margin-top: 10rem;
+        padding: 10px;
     }
   .search-filters {
     grid-template-columns: repeat(4, 1fr);
@@ -959,9 +960,6 @@ body {
     padding: 10px;
   }
 }
-
-
-
 
 
 
