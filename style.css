@@ -927,10 +927,11 @@ footer .footer .copyright a {
     }
 }
     .tic-box{
-        margin-top: 5rem;
+        margin-top: 3rem;
         padding: 10px;
     }
   .search-filters {
+      width: 100%;
     align-items: center;
   }
 
