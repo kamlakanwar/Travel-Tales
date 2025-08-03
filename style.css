@@ -438,15 +438,15 @@ section .container .content {
 
 /* ticket section starts here */
 
-#container.tic {
+.tic {
   background: #ffffff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading */
-#container h2 {
+
+.tic h2 {
   text-align: center;
   margin-bottom: 20px;
   color: #2c3e50;
@@ -951,6 +951,7 @@ body {
         max-width: 100%;
     }
 }
+
 
 
 
