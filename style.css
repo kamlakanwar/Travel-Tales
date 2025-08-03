@@ -848,9 +848,6 @@ footer .footer .copyright a {
 }
 /* footer section ends here  */
 
-body {
-    height: 300rem;
-}
 
 
 /* media queries */
@@ -957,6 +954,7 @@ body {
     padding: 10px;
   }
 }
+
 
 
 
