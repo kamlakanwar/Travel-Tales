@@ -440,7 +440,10 @@ section .container .content {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   margin: 20px;
-    height: 80vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tic h2 {
@@ -948,6 +951,7 @@ body {
     margin: 0 auto;
   }
 }
+
 
 
 
