@@ -927,7 +927,6 @@ footer .footer .copyright a {
     }
 }
     .tic-box{
-        height: 100%;
         margin-top: 10rem;
         padding: 10px;
     }
@@ -944,8 +943,8 @@ footer .footer .copyright a {
   }
 
   .se-btn {
-    grid-column: span 3;
-    width: 80%;
+    grid-column: span 4;
+    width: 100%;
   }
 
   .cruise-card {
@@ -954,9 +953,6 @@ footer .footer .copyright a {
     padding: 10px;
   }
 }
-
-
-
 
 
 
